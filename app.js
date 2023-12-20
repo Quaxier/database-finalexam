@@ -10,7 +10,7 @@ app.set('port', process.env.PORT || 3000);
 connPool;
 
 app.get('/',(req, res) => {
-  res.sendFile(path.join(__dirname + '/index.html'));
+  res.sendFile(path.join(__dirname + '/html/index.html'));
   })
 
 app.listen(app.get('port'), () => {

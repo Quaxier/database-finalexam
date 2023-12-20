@@ -90,7 +90,7 @@ body {
 }
 
 .sidebar ul > li:hover > a {
-  background-color: rgb(91, 79, 160);
+  background-color: rgb(125, 109, 218);
   border-bottom: 1px solid rgb(199, 199, 199);
 }
 
@@ -98,9 +98,9 @@ body {
   display: block;
   position: absolute;
   background-color: rgb(91, 79, 160);
-  top: 0;         /* 2차 메뉴의 상단을 1차 메뉴의 상단에 고정 */
-  left: 100%;     /* 2차 메뉴를 1차 메뉴의 너비만큼 이동 */
-  width: 100%;    /* 1차 메뉴의 너비를 상속 */
+  top: 0;
+  left: 100%; 
+  width: 100%;
 }
 
 .hero_header{

@@ -114,9 +114,21 @@ body {
   
   .products img{
     float: left;
-    width: 600px;
-    height: 600px;
+    width: 100px;
+    height: 100px;
     margin-right: 20px;
     margin-bottom: 20px;
     vertical-align: top;
+  }
+
+  .hr{
+    text-align: left;
+    margin-left: 0;
+    clear: both;
+  }
+
+  .purchase{
+    margin-left: 300px;
+    clear: both;
+    margin-top: 20px;
   }
