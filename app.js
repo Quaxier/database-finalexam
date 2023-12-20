@@ -7,36 +7,34 @@ const __dirname = path.resolve();
 
 app.set('port', process.env.PORT || 3000);
 
+//html 폴더 접근권한 부여
+app.use(express.static("html"));
+
+//커넥션풀 생성
 connPool;
 
+// html 불러오기
 app.get('/',(req, res) => {
   res.sendFile(path.join(__dirname + '/html/index.html'));
   })
-
 app.get('/index.html',(req, res) => {
   res.sendFile(path.join(__dirname + '/html/index.html'));
   })
-
 app.get('/cartlist.html',(req, res) => {
   res.sendFile(path.join(__dirname + '/html/cartlist.html'));
   })
-
 app.get('/wishlist.html',(req, res) => {
   res.sendFile(path.join(__dirname + '/html/wishlist.html'));
   })
-
 app.get('/mypage.html',(req, res) => {
     res.sendFile(path.join(__dirname + '/html/mypage.html'));
   })
-  
 app.get('/signin.html',(req, res) => {
   res.sendFile(path.join(__dirname + '/html/signin.html'));
   })
-  
 app.get('/login.html',(req, res) => {
   res.sendFile(path.join(__dirname + '/html/login.html'));
   })
-
 app.get('/gameinfo.html',(req, res) => {
   res.sendFile(path.join(__dirname + '/html/gameinfo.html'));
   })

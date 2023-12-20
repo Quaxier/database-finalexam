@@ -30,6 +30,7 @@ body {
   .navbar li{
     list-style-type: none;
     float: left;
+    margin-top: 20px;
     margin-right: 30px;
   }
   
@@ -104,8 +105,8 @@ body {
   }
 
   .products {
-    margin-top: 100px;
-    margin-left: 300px;
+    margin-top: 50px;
+    margin-left: 500px;
     margin-right: auto;
     padding: 0;
     width: 740px;
@@ -114,9 +115,73 @@ body {
   
   .products img{
     float: left;
-    width: 600px;
-    height: 600px;
-    margin-right: 20px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 20px;
     vertical-align: top;
+  }
+
+  .hr{
+    text-align: left;
+    margin-left: 0;
+    clear: both;
+  }
+
+  .purchase{
+    margin-left: 300px;
+    margin-top: 20px;
+  }
+
+  .addcartbutton {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+  }
+  .addcartbutton a{
+    text-decoration-line: none;
+    color : white;
+  }
+  .addcartbutton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+  }
+  .addcartbutton:active {
+	position:relative;
+	top:1px;
+  }
+
+  .deletebutton {
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+  }
+  .deletebutton a{
+    text-decoration-line: none;
+    color : white;
+  }
+  .deletebutton:hover {
+	background-color:#eb675e;
+  }
+  .deletebutton:active {
+	position:relative;
+	top:1px;
   }
